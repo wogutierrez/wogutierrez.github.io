@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header.startup {
+    background-position: center;
+    background-image: url("img/alone.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+header h1{
+    color: azure;
+}
+
+header hr{
+   background-color: azure; 
+}
+
