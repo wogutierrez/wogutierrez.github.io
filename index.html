@@ -58,7 +58,7 @@
         <p class="card-text">Use this search to get the search form.
           The material returned by this search only exist on this website on on the IMD Website</p>
        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target='#exampleModal'>
-         Launch Demo
+      Search 
        </button> 
       </div>
     </div>
@@ -70,15 +70,26 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+            <h5 class="modal-title">Movie Search</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+          
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">name</label>
+                <input type="name" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-3">
+                <label for="category" class="form-label">Category</label>
+                <input type="category" class="form-control" id="category">
+              </div>
+            </form>
+          
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
       </div>
