@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IT Consultant | William Ortega</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header, footer { text-align: center; background: #1a202c; color: #fff; padding: 1rem; }
+    main { max-width: 800px; margin: auto; padding: 2rem; }
+    a { color: #2b6cb0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    section { background: #fff; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IT Consultant</h1>
+</header>
+
+<main>
+  <section>
+    <p>
+      With over two decades of experience in computer repairs, network installations, and systems administration, I provide practical solutions tailored to small businesses and individuals.
+    </p>
+    <p>
+      I help clients get the most out of their devices, ensure systems run smoothly, and advise on cost-effective upgrades and tools—including AI for business.
+    </p>
+    <p><a href="index.html">← Back to Home</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>William Ortega | github.com/wogutierrez</p>
+</footer>
+
+</body>
+</html>
